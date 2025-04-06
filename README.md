@@ -24,7 +24,7 @@ It models the nonlinear propagation of a Gaussian (or User defined) beam and use
 
 ## 🔧 Adjustable Parameters and its default value
 
-1. 🔲 ROI Region (where SHG intensity is optimized):
+1. ROI Region (where SHG intensity is optimized):
 - roi_row_start = 2;
 - roi_col_start = 2;
 - roi_row_end   = 9;
@@ -47,7 +47,7 @@ It models the nonlinear propagation of a Gaussian (or User defined) beam and use
 - w0 = 0.7e-3 * 5;           % Beam waist
 - I0 = 2e8;                  % Intensity
 
-5. 📏 Superpixel and Phase Mask Settings
+5. Superpixel and Phase Mask Settings
 - num_superpixels = 225;     % Total superpixels
 - num_phases = 8;            % Discrete phase steps per superpixel
 
